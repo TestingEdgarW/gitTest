@@ -1,0 +1,275 @@
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 0.9rem;
+  background-color: white;
+  color: black;
+}
+
+.day-night {
+  position: fixed;
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+
+.day-night-style {
+  font-size: 2rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.list-style {
+  background-color: white;
+  color: black;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+.film-icon {
+  font-size: 0.8rem;
+}
+
+#main-img {
+  width: 200px;
+  border: 1px solid lightgrey;
+  border-radius: 30%;
+}
+
+#img-caption {
+  font-size: 0.7rem;
+}
+
+.list-group {
+  position: relative;
+  left: 25%;
+  width: 180px;
+}
+
+.fa-arrow-right {
+  position: absolute;
+  left: 8%;
+  -webkit-animation-name: arrow-animation-right;
+          animation-name: arrow-animation-right;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.fa-arrow-left {
+  position: absolute;
+  right: 8%;
+  -webkit-animation-name: arrow-animation-left;
+          animation-name: arrow-animation-left;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+@-webkit-keyframes arrow-animation-right {
+  0% {
+    left: 8%;
+  }
+  50% {
+    left: 12%;
+  }
+  100% {
+    left: 8%;
+  }
+}
+
+@keyframes arrow-animation-right {
+  0% {
+    left: 8%;
+  }
+  50% {
+    left: 12%;
+  }
+  100% {
+    left: 8%;
+  }
+}
+
+@-webkit-keyframes arrow-animation-left {
+  0% {
+    right: 8%;
+  }
+  50% {
+    right: 12%;
+  }
+  100% {
+    right: 8%;
+  }
+}
+
+@keyframes arrow-animation-left {
+  0% {
+    right: 8%;
+  }
+  50% {
+    right: 12%;
+  }
+  100% {
+    right: 8%;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 1.2rem;
+  }
+  h1 {
+    font-size: 2.3rem;
+  }
+  .film-icon {
+    font-size: 1.5rem;
+  }
+  #main-img {
+    width: 570px;
+  }
+  #img-caption {
+    font-size: 0.8rem;
+  }
+  .list-group {
+    position: relative;
+    left: 38%;
+    width: 200px;
+  }
+  .fa-arrow-right {
+    position: absolute;
+    left: 29%;
+  }
+  .fa-arrow-left {
+    position: absolute;
+    right: 29%;
+  }
+  @-webkit-keyframes arrow-animation-right {
+    0% {
+      left: 29%;
+    }
+    50% {
+      left: 33%;
+    }
+    100% {
+      left: 29%;
+    }
+  }
+  @keyframes arrow-animation-right {
+    0% {
+      left: 29%;
+    }
+    50% {
+      left: 33%;
+    }
+    100% {
+      left: 29%;
+    }
+  }
+  @-webkit-keyframes arrow-animation-left {
+    0% {
+      right: 29%;
+    }
+    50% {
+      right: 33%;
+    }
+    100% {
+      right: 29%;
+    }
+  }
+  @keyframes arrow-animation-left {
+    0% {
+      right: 29%;
+    }
+    50% {
+      right: 33%;
+    }
+    100% {
+      right: 29%;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  h1 {
+    font-size: 3rem;
+  }
+  .film-icon {
+    font-size: 1.8rem;
+  }
+  #main-img {
+    width: 720px;
+  }
+  #img-caption {
+    font-size: 0.9rem;
+  }
+  .list-group {
+    position: relative;
+    left: 39%;
+    width: 320px;
+  }
+  .fa-arrow-right {
+    position: absolute;
+    left: 36%;
+  }
+  .fa-arrow-left {
+    position: absolute;
+    right: 36%;
+  }
+  @-webkit-keyframes arrow-animation-right {
+    0% {
+      left: 36%;
+    }
+    50% {
+      left: 39%;
+    }
+    100% {
+      left: 36%;
+    }
+  }
+  @keyframes arrow-animation-right {
+    0% {
+      left: 36%;
+    }
+    50% {
+      left: 39%;
+    }
+    100% {
+      left: 36%;
+    }
+  }
+  @-webkit-keyframes arrow-animation-left {
+    0% {
+      right: 36%;
+    }
+    50% {
+      right: 39%;
+    }
+    100% {
+      right: 36%;
+    }
+  }
+  @keyframes arrow-animation-left {
+    0% {
+      right: 36%;
+    }
+    50% {
+      right: 39%;
+    }
+    100% {
+      right: 36%;
+    }
+  }
+}
+/*# sourceMappingURL=style.css.map */
