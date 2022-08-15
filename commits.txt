@@ -1,0 +1,17 @@
+commit a6c86ee5a1eb1ee889ca31aeb5249d5ac27190c8
+Author: Alejandro <jalejandrohdez13@gmail.com>
+Date:   Mon Aug 15 12:40:27 2022 -0500
+
+    Agregue link a wikipedia al final de la pagina
+
+commit ca62bb598aa979a2ef4b5450b940cc5f4aa8942d
+Author: Alejandro <jalejandrohdez13@gmail.com>
+Date:   Mon Aug 15 12:30:24 2022 -0500
+
+    Borre un parrafo en la introduccion
+
+commit 678a06356838541ace695cc23b380c7146b3672f
+Author: Alejandro <jalejandrohdez13@gmail.com>
+Date:   Mon Aug 15 12:19:32 2022 -0500
+
+    Iniciamos
